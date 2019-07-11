@@ -42,10 +42,16 @@ y1 = np.sin(x_)
 y2 = np.cos(x_)
 
 # 그래프 그리기
-plt.plot(x_, y1, label ="sin")
-plt.plot(x_, y2, linestyle=":", label = "cos") # cos 함수는 점선으로 그리기
-plt.xlabel("x") # x축 이름
-plt.ylabel("y") # y축 이름
+plt.plot(x_, y1, label='sin')
+plt.plot(x_, y2, linestyle=':', label = 'cos') # cos 함수는 점으로
+# linestyle 종류
+# : 점
+# - 선
+# -- 대쉬
+# -. 대쉬 & 점
+
+plt.xlabel('x') # x축 이름
+plt.ylabel('y') # y축 이름
 plt.title('sin & cos') # 제목
-plt.legend()
+plt.legend() # 범례
 plt.show()
