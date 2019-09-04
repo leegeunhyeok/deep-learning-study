@@ -105,3 +105,6 @@ venv.bak/
 
 # Large dataset file
 dataset/*.pkl
+
+# VSCode config
+.vscode
